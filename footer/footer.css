@@ -1,6 +1,22 @@
 .footer {
+
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: rgba(46, 46, 46, 0.772);
     padding: 10px;
     text-align: center;
     color: white;
+}
+
+.f{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    padding: 10px;
 }
